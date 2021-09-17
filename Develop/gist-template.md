@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Regex Tutorial
 
 Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The Regex that I will be making this tutorial on is the:
+
+    Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+    I will talk about what all of the symbol's mean.
 
 ## Table of Contents
 
@@ -24,13 +28,32 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+    ^ Start of string, or start of line in multi-line pattern.
+    /^([a-z...
+    I just love **bold text**.
+
 ### Quantifiers
+
+    Quantifiers are use to ensure that a string matches a certain value, eg: abc
 
 ### OR Operator
 
+    These can be used with | or []
+    a(b|c)     matches a string that has a followed by b or c (and captures b or c),
+    It will then find all matches that have: (ab) or (ac) but have to be connected.
+
+    /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+       ^----------^    ^--------^     ^-----^
+    
 ### Character Classes
 
+    ...@([\da-z\.-]...
+    The Character Classes are use to match any digit (\d) or word character (\w).
+    We are only using the digit (\d) class after the @ symbol so the user is able to use any numbers or letters for their web address.
+
 ### Flags
+
+    
 
 ### Grouping and Capturing
 
