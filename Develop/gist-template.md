@@ -47,8 +47,8 @@ The Regex that I will be making this tutorial on is the:
     It will then find all matches that have: (ab) or (ac) but have to be connected.
 
     /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-       ^----------^    ^--------^     ^-----^
-    
+           ^----------^    ^--------^     ^-----^
+
 ### Character Classes
 
     ...@([\da-z\.-]...
@@ -67,7 +67,7 @@ The Regex that I will be making this tutorial on is the:
 
 ### Bracket Expressions
 
-    
+Brackets are used to ensure that the string meets the requirement [abc]. It can also be used to match a single character NOT present in the string.
 
 ### Greedy and Lazy Match
 
