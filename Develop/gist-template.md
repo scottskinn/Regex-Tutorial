@@ -29,8 +29,12 @@ The Regex that I will be making this tutorial on is the:
 ### Anchors
 
     ^ Start of string, or start of line in multi-line pattern.
+
     /^([a-z...
-    I just love **bold text**.
+
+    $ Used at the end of the string to check if it matches.
+
+    ...([a-z\.]{2,6})$/
 
 ### Quantifiers
 
@@ -53,11 +57,17 @@ The Regex that I will be making this tutorial on is the:
 
 ### Flags
 
-    
+
 
 ### Grouping and Capturing
 
+    These are useful when you need to extract information from strings or data using your preferred language
+    /^([a-z0-9_\.-]+)@...
+    ^---------------^
+
 ### Bracket Expressions
+
+    
 
 ### Greedy and Lazy Match
 
