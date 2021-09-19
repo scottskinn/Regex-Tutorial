@@ -1,14 +1,15 @@
-# Regex Tutorial
+# Regex Tutorial for Emails
 
-Introductory paragraph (replace this with your text)
+    What is a Regex? Regex stands for Regular Expression, which is a easy way to define a pattern. The main purpose of a regex is for you to match a character or words in specific fields.
+
 
 ## Summary
 
-The Regex that I will be making this tutorial on is the:
+    The Regex that I will be making this tutorial on is the:
 
     Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-    I will talk about what all of the symbol's mean.
+    I will talk about what all of the symbol's mean and the different sections they have.
 
 ## Table of Contents
 
@@ -16,13 +17,9 @@ The Regex that I will be making this tutorial on is the:
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -38,7 +35,9 @@ The Regex that I will be making this tutorial on is the:
 
 ### Quantifiers
 
-    Quantifiers are use to ensure that a string matches a certain value, eg: abc
+    Quantifiers, *+?{}, are use to ensure that a string matches a certain value. 
+        eg: abc* this will match a string that has ab with zero or many c's
+            abc+ this will match a string that has ab with one or more c's
 
 ### OR Operator
 
