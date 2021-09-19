@@ -55,10 +55,6 @@ The Regex that I will be making this tutorial on is the:
     The Character Classes are use to match any digit (\d) or word character (\w).
     We are only using the digit (\d) class after the @ symbol so the user is able to use any numbers or letters for their web address.
 
-### Flags
-
-
-
 ### Grouping and Capturing
 
     These are useful when you need to extract information from strings or data using your preferred language
@@ -67,15 +63,10 @@ The Regex that I will be making this tutorial on is the:
 
 ### Bracket Expressions
 
-Brackets are used to ensure that the string meets the requirement [abc]. It can also be used to match a single character NOT present in the string.
+    Brackets are used to ensure that the string meets the requirement [abc]. It can also be used to match a single character NOT present in the string [^abc].
 
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+    /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    Each [] that is used is looking for a set of letters or numbers.
 
 ## Author
 
