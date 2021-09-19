@@ -2,14 +2,14 @@
 
     What is a Regex? Regex stands for Regular Expression, which is a easy way to define a pattern. The main purpose of a regex is for you to match a character or words in specific fields.
 
-
 ## Summary
 
     The Regex that I will be making this tutorial on is the:
 
     Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-    I will talk about what all of the symbol's mean and the different sections they have.
+    I will talk about what all of the functions by breaking down each part of the expression and describing what it does.
+
 
 ## Table of Contents
 
@@ -19,7 +19,6 @@
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-
 
 ## Regex Components
 
@@ -69,4 +68,6 @@
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+    I hope this is able to help you understand what a regex does to verify an email. If you would like to see some of my other projects, head over to my github account: 
+
+    [scottskinn](https://github.com/scottskinn/)
